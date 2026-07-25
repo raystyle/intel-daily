@@ -32,8 +32,7 @@ YYYY-MM-DD/
 | 仓库 | 用途 |
 |------|------|
 | intelligence | 技能源码与契约 |
-| intel-daily | 每日情报**产物**（本仓库 · `~/Documents/intel-daily`） |
-| mac-daily | 本机运维与部署日志（`~/Documents/mac-daily`） |
+| intel-daily | 每日情报**产物**（本仓库） |
 
 ## 同步
 
