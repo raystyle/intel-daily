@@ -33,7 +33,7 @@ YYYY-MM-DD/
 |------|------|
 | intelligence | 技能源码与契约 |
 | intel-daily | 每日情报**产物** |
-| mac-note | 本机运维与部署日志 |
+| mac-daily | 本机运维与部署日志（`~/Documents/mac-daily`） |
 
 ## 同步
 
