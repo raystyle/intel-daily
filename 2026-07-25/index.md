@@ -7,3 +7,5 @@
 | hybrid | [openai-sandbox-escape-huggingface-2026-07.md](./hybrid/openai-sandbox-escape-huggingface-2026-07.md) | OpenAI 沙盒逃逸 / Hugging Face |
 
 技能：`/intelligence` · 产物：`raystyle/intel-daily`
+
+> 当日 security 篇已按 intelligence skill v1.0.2 补全「利用与 PoC 信度」「处置信度」。
