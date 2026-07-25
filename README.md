@@ -1,12 +1,14 @@
 # intel-daily
 
-intelligence skill 每日记录产物。
+intelligence skill 每日记录产物（本远程仓库）。
 
 | | |
 |--|--|
-| 本地 | `~/Documents/intel-daily` |
 | 远程 | https://github.com/raystyle/intel-daily |
 | 技能 | `raystyle/intelligence` · `/intelligence` |
+| 本机目录示例 | `~/Documents/intel-daily` — **维护者本机**把本仓 clone 到此；他人可放任意路径 |
+
+`~/Documents/intel-daily` **不是** skill 或 GitHub 的全局固定安装路径，只是本机工作区的本地 clone 约定。
 
 ## 目录约定
 
@@ -38,7 +40,8 @@ YYYY-MM-DD/
 | 例外 | 仅追问无结论，或用户明确免落盘/免 push |
 
 ```bash
-cd ~/Documents/intel-daily
+# 在本机 clone 目录内执行（示例路径）
+cd ~/Documents/intel-daily   # 或 $INTEL_DAILY_ROOT
 git add -A && git status
 git commit -m "intel: YYYY-MM-DD ..."
 git push origin main
