@@ -1,6 +1,6 @@
 # /intelligence：Microsoft SharePoint / AD FS 7 月在野漏洞簇
 
-**类型：** 网络安全  
+**类型：** 网络安全情报  
 **窗口：** 约 2026-07 月中下旬 · 截至 2026-07-25  
 **模式：** security · 事实信心 高 · 舆论信心 中  
 **信源：** CISA KEV/警报、微软 MSRC、专业媒体综述
