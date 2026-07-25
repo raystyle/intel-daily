@@ -12,13 +12,13 @@ intelligence skill 每日记录产物。
 
 ```text
 YYYY-MM-DD/
-  security/     # 漏洞、在野、厂商通告类简报
-  tech/         # 产品/模型/技术动态
-  hybrid/       # 安全+技术混合
-  index.md      # 当日索引（可选）
+  security/     # 网络安全情报
+  tech/         # 前沿技术情报
+  hybrid/       # 两线交织
+  index.md      # 当日索引（完整简报必更新）
 ```
 
-文件命名建议：
+文件命名：
 
 ```text
 {简短slug}.md
@@ -27,18 +27,24 @@ YYYY-MM-DD/
 # 例: kimi-k3-launch.md
 ```
 
+## 写入与同步（由 /intelligence 执行）
+
+| 步骤 | 说明 |
+|------|------|
+| 生成 | 每次完整简报 → 落盘到当日目录 + 更新 `index.md` |
+| 默认同步 | **只本地**；不自动 commit/push |
+| 远程更新 | 用户明确「同步 / 推送」后再 commit + push |
+
+```bash
+cd ~/Documents/intel-daily
+git add -A && git status
+git commit -m "intel: YYYY-MM-DD ..."
+git push origin main
+```
+
 ## 与其它仓库
 
 | 仓库 | 用途 |
 |------|------|
 | intelligence | 技能源码与契约 |
 | intel-daily | intelligence skill 每日记录**产物**（本仓库） |
-
-## 同步
-
-```bash
-cd ~/Documents/intel-daily
-git add -A && git status
-git commit -m "intel: YYYY-MM-DD ..."
-git push
-```
