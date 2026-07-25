@@ -17,7 +17,7 @@ YYYY-MM-DD/
   security/     # 网络安全情报
   tech/         # 前沿技术情报
   hybrid/       # 两线交织
-  index.md      # 当日索引（完整简报必更新）
+  index.md      # 当日索引（完整每日记录产物必更新）
 ```
 
 文件命名：
