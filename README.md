@@ -4,7 +4,7 @@
 
 | | |
 |--|--|
-| 本地 | `~/intel-daily` |
+| 本地 | `~/Documents/intel-daily` |
 | 远程 | https://github.com/raystyle/intel-daily |
 | 技能 | `raystyle/intelligence` · `/intelligence` |
 
@@ -32,13 +32,13 @@ YYYY-MM-DD/
 | 仓库 | 用途 |
 |------|------|
 | intelligence | 技能源码与契约 |
-| intel-daily | 每日情报**产物** |
+| intel-daily | 每日情报**产物**（本仓库 · `~/Documents/intel-daily`） |
 | mac-daily | 本机运维与部署日志（`~/Documents/mac-daily`） |
 
 ## 同步
 
 ```bash
-cd ~/intel-daily
+cd ~/Documents/intel-daily
 git add -A && git status
 git commit -m "intel: YYYY-MM-DD ..."
 git push
